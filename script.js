@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
       sections.forEach(section => {
         const sectionHeight = section.offsetHeight;
         const sectionTop = section.offsetTop - 100;
-        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {     
           current = section.getAttribute('id');
         }
       });
