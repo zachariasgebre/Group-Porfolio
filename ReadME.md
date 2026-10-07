@@ -27,13 +27,8 @@ A sleek, responsive, and interactive developer portfolio website built using pur
 ## 📂 Project Structure
 
 ```text
-my-portfolio/
+Group-portfolio/
 ├── index.html          # Home / Hero section page
-├── about.html          # About me section & quick info cards
-├── skills.html         # Technical skills grid & progress indicators
-├── projects.html       # Projects gallery & interactive detail modal
-├── contact.html        # Contact form & social media handles
 ├── styles.css          # Master stylesheet (colors, layout, media queries)
 ├── script.js          # Main JavaScript file (navigation, filter, modal)
-├── resume.pdf          # Your CV/Resume PDF file
 └── README.md           # Project documentation
