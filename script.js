@@ -106,9 +106,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ==========================================
+  
   // 5. Contact Form Submission Handling
-  // ==========================================
+
   const contactForm = document.getElementById('contactForm');
   if (contactForm) {
     contactForm.addEventListener('submit', async (e) => {
@@ -139,9 +139,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ==========================================
   // 6. Dynamic Footer Copyright Year
-  // ==========================================
+
   const currentYearSpan = document.getElementById('currentYear');
   if (currentYearSpan) {
     currentYearSpan.textContent = new Date().getFullYear();
