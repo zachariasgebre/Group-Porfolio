@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Alex Morgan | Frontend Developer Portfolio</title>
+  <title>Alex Morgan Portfolio</title>
   <!-- Google Fonts & Font Awesome Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -211,7 +211,7 @@
         <!-- Project 1 -->
         <div class="project-card" data-category="javascript">
           <div class="project-img-wrapper">
-            <img src="https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=600" alt="E-Commerce Website" />
+            <img src="./e-commerce.png" alt="E-Commerce Website" />
           </div>
           <div class="project-content">
             <h3>E-Commerce Website</h3>
@@ -224,7 +224,7 @@
             <button class="btn btn-primary open-modal-btn" 
                     data-title="E-Commerce Website"
                     data-desc="A modern e-commerce platform with dynamic shopping cart, product filtering, and payment integration. Built with clean UI and full responsive layout for mobile, tablet, and desktop."
-                    data-img="https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=600"
+                    data-img="./e-commerce.png"
                     data-tags="HTML, CSS, JavaScript">
               View Details
             </button>
@@ -234,7 +234,7 @@
         <!-- Project 2 -->
         <div class="project-card" data-category="javascript">
           <div class="project-img-wrapper">
-            <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&q=80&w=600" alt="Weather App" />
+            <img src="./weather.png" alt="Weather App" />
           </div>
           <div class="project-content">
             <h3>Weather App</h3>
@@ -247,7 +247,7 @@
             <button class="btn btn-primary open-modal-btn" 
                     data-title="Weather App"
                     data-desc="An intuitive weather tracking application utilizing OpenWeather API to provide real-time updates and daily forecasts."
-                    data-img="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&q=80&w=600"
+                    data-img="./weather.png"
                     data-tags="HTML, CSS, JavaScript, API Integration">
               View Details
             </button>
@@ -257,7 +257,7 @@
         <!-- Project 3 -->
         <div class="project-card" data-category="html-css">
           <div class="project-img-wrapper">
-            <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=600" alt="Blog Website" />
+            <img src="./bllog.png" alt="Blog Website" />
           </div>
           <div class="project-content">
             <h3>Blog Website</h3>
@@ -268,7 +268,7 @@
             <button class="btn btn-primary open-modal-btn" 
                     data-title="Blog Website"
                     data-desc="Clean blog website design focused on readable content presentation, semantic structure, and speed performance."
-                    data-img="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=600"
+                    data-img="./bllog.png"
                     data-tags="HTML, CSS, Responsive Design">
               View Details
             </button>
@@ -360,7 +360,24 @@
     </div>
   </footer>
 
-  
+  <!-- Section 8: Project Details Modal -->
+  <div class="modal-backdrop" id="projectModal">
+    <div class="modal-box">
+      <button class="modal-close" id="modalCloseBtn">&times;</button>
+      <div class="modal-body">
+        <img src="" id="modalImg" alt="Project Preview" class="modal-img"/>
+        <h3 id="modalTitle">Project Title</h3>
+        <p id="modalDesc">Project detailed description goes here...</p>
+        <div class="modal-tags-container">
+          <strong>Technologies:</strong>
+          <div class="tech-tags" id="modalTags"></div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" class="btn btn-primary" target="_blank">View Live Demo <i class="fa-solid fa-external-link"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
