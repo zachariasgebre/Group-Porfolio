@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // ==========================================
+ 
   // 1. Mobile Navigation Menu Toggle
-  // ==========================================
+ 
   const menuToggle = document.getElementById('menuToggle');
   const navLinks = document.getElementById('navLinks');
 
@@ -18,9 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ==========================================
   // 2. Active Link Highlighting on Scroll
-  // ==========================================
+  
   const sections = document.querySelectorAll('section[id]');
   const navItems = document.querySelectorAll('.nav-item');
 
@@ -46,9 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ==========================================
   // 3. Project Filter Functionality
-  // ==========================================
+
   const filterBtns = document.querySelectorAll('.filter-btn');
   const projectCards = document.querySelectorAll('.project-card');
 
@@ -70,9 +68,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // ==========================================
+
   // 4. Project Details Modal (Connected to your HTML)
-  // ==========================================
+  
   const modal = document.getElementById('projectModal');
   const modalCloseBtn = document.getElementById('modalCloseBtn');
   const modalImg = document.getElementById('modalImg');
